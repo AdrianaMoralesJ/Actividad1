@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="PQG">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Control submit por evento formulario</title>
+<link rel="stylesheet" href="CSS/estilo.css">
+
+</head>
+<body>
+  <div class="texto">
+    <h2 id="w"></h2>
+  </div>
+	<form>
+		RFC <input type="text" name="txtRFC" maxlength="13" size="15"/>
+		<br/>
+		<input type="submit" onClick="return valida(txtRFC);" value="Ok"/>
+	</form>
+</body>
+<script type="text/javascript" src="js/RFC.js"></script> <!--Se ejecuta el script por estar en head-->
+
+</html>
